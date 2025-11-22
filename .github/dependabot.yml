@@ -37,6 +37,7 @@ updates:
         update-types: ["version-update:semver-major"]
       - dependency-name: "react-dom"
         update-types: ["version-update:semver-major"]
+      # Allow Vite 6.x minor/patch updates, but prevent auto-update to 7.x
       - dependency-name: "vite"
         update-types: ["version-update:semver-major"]
 
